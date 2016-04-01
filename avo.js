@@ -24,7 +24,15 @@ for (var i =0; i < x.length; i++){
 }
 
 a.forEach(function(item){
-	console.log(item)
+	var qua = item[0];
+	var price = item[1];
+
+	var ans = price/ qua;
+
+	console.log(ans)
+
+	// console.log(qua)
+	// console.log(price)
 })
 console.log(a.length);
 
